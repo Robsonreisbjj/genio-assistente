@@ -1,0 +1,23 @@
+{
+  "name": "personal-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend do Assistente Pessoal com integração Telegram, Supabase e Agência Híbrida",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup-bot": "node src/scripts/setup_telegram.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "axios": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.87.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
